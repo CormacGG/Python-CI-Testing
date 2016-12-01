@@ -1,4 +1,4 @@
-language: py thon
+language: python
 pythonh:
 # - "2.7"
 - "3.3"
