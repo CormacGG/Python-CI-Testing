@@ -1,0 +1,12 @@
+language: py thon
+pythonh:
+# - "2.7"
+- "3.3"
+- "3.4"
+# command to install dependencies
+install:
+- pip install simplejson
+# command to run tests
+script:
+- python-m unittest unittestexample -v
+- python -m doctest -v doctestexample.py
